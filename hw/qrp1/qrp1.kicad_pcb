@@ -2390,7 +2390,7 @@
 		(descr "L_Toroid, Horizontal series, Radial, pin pitch=15.00mm, , diameter=9.524999999999999mm, Diameter10-5mm, Amidon-T37")
 		(tags "L_Toroid Horizontal series Radial pin pitch 15.00mm  diameter 9.524999999999999mm Diameter10-5mm Amidon-T37")
 		(property "Reference" "L1"
-			(at 1.5 -3.5 0)
+			(at 7.5 0 0)
 			(layer "F.SilkS")
 			(uuid "0d215f31-c3cb-4f40-a3f8-13c7f926d660")
 			(effects
@@ -10130,6 +10130,15 @@
 		(uuid "01da6556-e4cc-4873-b685-da0e92c99f3c")
 	)
 	(via
+		(at 177 94.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 5)
+		(uuid "0220bbd4-cc7b-4971-b286-229a913a3c80")
+	)
+	(via
 		(at 179.25 91.25)
 		(size 0.6)
 		(drill 0.3)
@@ -10238,6 +10247,15 @@
 		(uuid "3a546e92-0c25-4aa1-83ac-ef4b0cfdfc38")
 	)
 	(via
+		(at 172 94.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 5)
+		(uuid "3c925653-d3ff-4423-8e8d-94919d6d1b0b")
+	)
+	(via
 		(at 182 100.25)
 		(size 0.6)
 		(drill 0.3)
@@ -10245,6 +10263,15 @@
 		(free yes)
 		(net 5)
 		(uuid "3f715591-218f-420c-bdaf-b12d33e8afdc")
+	)
+	(via
+		(at 172 100)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 5)
+		(uuid "4cc78407-268d-4e86-a8eb-c511653a2cd4")
 	)
 	(via
 		(at 167.75 75.5)
@@ -10382,6 +10409,15 @@
 		(uuid "7d896ca3-eb96-468e-bcc5-4f90570b06d2")
 	)
 	(via
+		(at 177 100)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 5)
+		(uuid "81be24c9-41d4-4fef-b8d7-f7a51d2a46b8")
+	)
+	(via
 		(at 176 83.75)
 		(size 0.6)
 		(drill 0.3)
@@ -10488,6 +10524,15 @@
 		(free yes)
 		(net 5)
 		(uuid "bd0c96c5-e8ab-49c7-93d9-b8ab693dc6a2")
+	)
+	(via
+		(at 174.5 100.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 5)
+		(uuid "bd5440b1-dcaf-4304-a154-f58fead314b8")
 	)
 	(via
 		(at 167 84.5)
