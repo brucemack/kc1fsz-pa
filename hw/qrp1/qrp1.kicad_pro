@@ -510,6 +510,10 @@
       {
         "netclass": "Power",
         "pattern": "/S1_VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+12V_SWITCHED"
       }
     ]
   },
@@ -518,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plots",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
