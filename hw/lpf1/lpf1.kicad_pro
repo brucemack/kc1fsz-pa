@@ -465,7 +465,7 @@
         "name": "High RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -475,7 +475,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "ANT": "High RF",
+      "Net-(D7-A)": "High RF"
+    },
     "netclass_patterns": [
       {
         "netclass": "High RF",
@@ -492,6 +495,14 @@
       {
         "netclass": "High RF",
         "pattern": "LPF_OUT"
+      },
+      {
+        "netclass": "High RF",
+        "pattern": "LPF_IN"
+      },
+      {
+        "netclass": "High RF",
+        "pattern": "ANT"
       }
     ]
   },
@@ -612,6 +623,14 @@
     [
       "29bffa6e-4f8e-4d0e-80ef-849187359ec6",
       "Root"
+    ],
+    [
+      "20a38b05-34c6-4479-b209-3dea7336d57c",
+      "LPF"
+    ],
+    [
+      "c19adb4c-f076-4c5b-bb1f-5c0c6734f140",
+      "Stockton Bridge"
     ]
   ],
   "text_variables": {}
