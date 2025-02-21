@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "3104e35d-6d09-4935-9481-d17446c8a16c")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Low Pass Filter Board 1")
+		(date "2025-02-21")
+		(rev "1")
+		(company "Bruce MacKinnon, KC1FSZ")
+		(comment 1 "Copyright (C) Bruce MacKinnon, 2025")
+		(comment 2 "NOT FOR COMMERCIAL USE")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
@@ -988,6 +996,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 104.14) (xy 219.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91624e61-7148-4e95-a261-ac26df928c51")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 95.25 96.52)
 		)
 		(stroke
@@ -1118,6 +1136,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 87.63) (xy 219.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79bef23-8797-489f-9173-c93b8f2e0f79")
+	)
+	(wire
+		(pts
 			(xy 128.27 83.82) (xy 128.27 109.22)
 		)
 		(stroke
@@ -1168,7 +1196,7 @@
 	)
 	(global_label "V_REV"
 		(shape input)
-		(at 205.74 104.14 0)
+		(at 219.71 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1178,7 +1206,7 @@
 		)
 		(uuid "7fb1ce74-2334-4d01-a9f7-9a5e37c46304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.289 104.14 0)
+			(at 228.259 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1262,7 @@
 	)
 	(global_label "V_FWD"
 		(shape input)
-		(at 205.74 87.63 0)
+		(at 219.71 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1244,7 +1272,7 @@
 		)
 		(uuid "f1bf3728-1451-4d17-b48b-f3ff01993551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.5914 87.63 0)
+			(at 228.5614 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,6 +1325,74 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c14df57-a0b4-467a-ade1-3d2ea4aef925")
+		(property "Reference" "R10"
+			(at 208.28 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 208.28 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1a795aa-83c3-4640-8f93-2361f3b177a1")
+		)
+		(pin "2"
+			(uuid "aac874f5-9f02-4288-a8fa-56b40ee64c34")
+		)
+		(instances
+			(project "lpf1"
+				(path "/29bffa6e-4f8e-4d0e-80ef-849187359ec6/c19adb4c-f076-4c5b-bb1f-5c0c6734f140"
+					(reference "R10")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1841,6 +1937,74 @@
 			(project ""
 				(path "/29bffa6e-4f8e-4d0e-80ef-849187359ec6/c19adb4c-f076-4c5b-bb1f-5c0c6734f140"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a78c92d4-e955-49cc-90e9-24d216bfaec9")
+		(property "Reference" "R9"
+			(at 208.28 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 208.28 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7fd1d11-b267-48b3-9520-880b74f23058")
+		)
+		(pin "2"
+			(uuid "5495adff-1379-4a0f-b57e-76345d361b93")
+		)
+		(instances
+			(project "lpf1"
+				(path "/29bffa6e-4f8e-4d0e-80ef-849187359ec6/c19adb4c-f076-4c5b-bb1f-5c0c6734f140"
+					(reference "R9")
 					(unit 1)
 				)
 			)

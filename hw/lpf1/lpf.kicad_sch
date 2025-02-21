@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "77edb3f3-57b5-45b6-8268-6fd8e034d6e9")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Low Pass Filter Board 1")
+		(date "2025-02-21")
+		(rev "1")
+		(company "Bruce MacKinnon, KC1FSZ")
+		(comment 1 "Copyright (C) Bruce MacKinnon, 2025")
+		(comment 2 "NOT FOR COMMERCIAL USE")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
